@@ -1,0 +1,20 @@
+const arr = [10,100,1,59.10,120,-1,30];
+
+// Find the min
+var min = arr[0];
+for(i = 1; i < arr.length; i++){
+    if(min > arr[i]){
+        min = arr[i];
+    }
+}
+console.log('min:', min);
+
+// Find the max
+var max = arr[10,100,1,59.10,120,-1,30];
+for(i = 1; i < arr.length; i++){
+    if(max < arr[i]){
+        max = arr[i];
+    }
+}
+
+console.log('max:', max);
